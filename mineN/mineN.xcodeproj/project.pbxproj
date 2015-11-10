@@ -10,8 +10,12 @@
 		24473B4A1BEB6411000FAF97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24473B491BEB6411000FAF97 /* main.m */; };
 		24473B4D1BEB6411000FAF97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24473B4C1BEB6411000FAF97 /* AppDelegate.m */; };
 		24473B551BEB6411000FAF97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24473B541BEB6411000FAF97 /* Assets.xcassets */; };
+		246538FF1BECCB6300FDC596 /* NetWorkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 246538FE1BECCB6300FDC596 /* NetWorkTools.m */; settings = {ASSET_TAGS = (); }; };
 		24B877BB1BEC7298009F8F46 /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B877BA1BEC7298009F8F46 /* NewsTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		24B877BD1BEC72AE009F8F46 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B877BC1BEC72AE009F8F46 /* News.storyboard */; settings = {ASSET_TAGS = (); }; };
+		24DF280F1BEF269A00CA90B7 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DF280E1BEF269A00CA90B7 /* News.m */; settings = {ASSET_TAGS = (); }; };
+		24DF28131BEF4CA000CA90B7 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DF28121BEF4CA000CA90B7 /* NSArray+Log.m */; settings = {ASSET_TAGS = (); }; };
+		24DF28191BF09BEA00CA90B7 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DF28181BF09BEA00CA90B7 /* NewsCell.m */; settings = {ASSET_TAGS = (); }; };
 		2FB07BC22D4AA0522D3F391B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A04653A81E84C9F8456DF2DF /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -23,9 +27,17 @@
 		24473B4C1BEB6411000FAF97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		24473B541BEB6411000FAF97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24473B591BEB6411000FAF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		246538FD1BECCB6300FDC596 /* NetWorkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkTools.h; sourceTree = "<group>"; };
+		246538FE1BECCB6300FDC596 /* NetWorkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkTools.m; sourceTree = "<group>"; };
 		24B877B91BEC7298009F8F46 /* NewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewController.h; sourceTree = "<group>"; };
 		24B877BA1BEC7298009F8F46 /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewController.m; sourceTree = "<group>"; };
 		24B877BC1BEC72AE009F8F46 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
+		24DF280D1BEF269A00CA90B7 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		24DF280E1BEF269A00CA90B7 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		24DF28111BEF4CA000CA90B7 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		24DF28121BEF4CA000CA90B7 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		24DF28171BF09BEA00CA90B7 /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		24DF28181BF09BEA00CA90B7 /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
 		945F4705A2A824E6EB0857C1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A04653A81E84C9F8456DF2DF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -97,6 +109,10 @@
 				24B877B91BEC7298009F8F46 /* NewsTableViewController.h */,
 				24B877BA1BEC7298009F8F46 /* NewsTableViewController.m */,
 				24B877BC1BEC72AE009F8F46 /* News.storyboard */,
+				24DF280D1BEF269A00CA90B7 /* News.h */,
+				24DF280E1BEF269A00CA90B7 /* News.m */,
+				24DF28171BF09BEA00CA90B7 /* NewsCell.h */,
+				24DF28181BF09BEA00CA90B7 /* NewsCell.m */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -104,8 +120,20 @@
 		24473B611BEB6E47000FAF97 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				24DF28101BEF4CA000CA90B7 /* Log */,
+				246538FD1BECCB6300FDC596 /* NetWorkTools.h */,
+				246538FE1BECCB6300FDC596 /* NetWorkTools.m */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		24DF28101BEF4CA000CA90B7 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				24DF28111BEF4CA000CA90B7 /* NSArray+Log.h */,
+				24DF28121BEF4CA000CA90B7 /* NSArray+Log.m */,
+			);
+			path = Log;
 			sourceTree = "<group>";
 		};
 		58D379F4ACF0C542C9BCDB12 /* Pods */ = {
@@ -229,7 +257,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24DF280F1BEF269A00CA90B7 /* News.m in Sources */,
+				246538FF1BECCB6300FDC596 /* NetWorkTools.m in Sources */,
 				24B877BB1BEC7298009F8F46 /* NewsTableViewController.m in Sources */,
+				24DF28191BF09BEA00CA90B7 /* NewsCell.m in Sources */,
+				24DF28131BEF4CA000CA90B7 /* NSArray+Log.m in Sources */,
 				24473B4D1BEB6411000FAF97 /* AppDelegate.m in Sources */,
 				24473B4A1BEB6411000FAF97 /* main.m in Sources */,
 			);
@@ -324,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = mineN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.mineN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -336,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = mineN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.mineN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
