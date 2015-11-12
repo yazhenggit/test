@@ -15,7 +15,7 @@
 //跟帖数量
 @property(nonatomic,assign) NSInteger posts;
 //配图地址
-@property(nonatomic,copy) NSString *iconscr;
+@property(nonatomic,copy) NSString *imgsrc;
 
 +(instancetype)newsWithDict:(NSDictionary *)dict;
 +(void)loadNewslistUrlstring:(NSString *)urlstring finished:(void(^)(NSArray *newslist))finished;

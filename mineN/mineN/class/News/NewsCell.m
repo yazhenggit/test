@@ -22,10 +22,10 @@
     self.titlelable.text = news.title;
     self.digest.text = news.digest;
     self.posts.text = [NSString stringWithFormat:@"%zd",news.posts];
-    [self.iconView setImageWithURL:[NSURL URLWithString:news.iconscr]];
+    [self.iconView setImageWithURL:[NSURL URLWithString:news.imgsrc]];
 }
 - (void)awakeFromNib {
-    // Initialization code
+    self.digest.preferredMaxLayoutWidth = [UIScreen mainScreen].bounds.size.width - CGRectGetMaxX(self.imageView.frame)-16;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
